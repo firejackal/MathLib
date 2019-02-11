@@ -9,9 +9,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace StrikeSoft.Libraries.Math.AI
+namespace MathLib.AI
 {
-    public abstract class AStarPathFinding
+    public abstract class AStarPathFinding2
     {
         public void FindPath(MapPosition startPosition, MapPosition endPosition, ref List<MapPosition> results)
         {
@@ -202,4 +202,4 @@ namespace StrikeSoft.Libraries.Math.AI
             public abstract object Clone();
         } // MapPosition
     } // AStarPathFinding
-} // StrikeSoft.Libraries.Math.AI namespace
+} // MathLib.AI namespace

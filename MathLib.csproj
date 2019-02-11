@@ -41,13 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="A Star Path Finding %282%29.cs" />
-    <Compile Include="A Star Path Finding.cs" />
+    <Compile Include="AI\A Star Path Finding %282%29.cs" />
+    <Compile Include="AI\A Star Path Finding.cs" />
     <Compile Include="Generator Helper Functions.cs" />
     <Compile Include="Geometry.cs" />
     <Compile Include="Height Map.cs" />
     <Compile Include="Perlin Noise.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="IOLib\IOLib.csproj">
+      <Project>{0aea4bd6-09f6-4bcf-b2a4-8511c0f56178}</Project>
+      <Name>IOLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

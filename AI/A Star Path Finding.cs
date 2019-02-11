@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace StrikeSoft.Libraries.Math.AI
+namespace MathLib.AI
 {
     public interface BaseLocation
     {
@@ -382,4 +382,4 @@ namespace StrikeSoft.Libraries.Math.AI
             } //Clone Function
         } //MyLocation
     } //Examples
-} //StrikeSoft
+} //MathLib.AI namespace
